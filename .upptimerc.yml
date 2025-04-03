@@ -1,8 +1,12 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
+owner: twelvebit-io # Your GitHub organization or username, where this repository lives
 repo: upptime # The name of this repository
 
 sites:
+  - name: Swapsicle Application
+    url: https://app.swapsicle.io/swap
+  - name: Swapsicle Landing
+    url: https://www.swapsicle.io/
   - name: Google
     url: https://www.google.com
   - name: Wikipedia
@@ -20,7 +24,7 @@ sites:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
+  cname: twelvebit.io
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
