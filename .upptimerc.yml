@@ -17,7 +17,18 @@ sites:
     url: https://sambucarestaurants.co.uk/
   - name: TelosX Landing
     url: https://telosx.io/
-  
+  - name: Swapsicle Analytics Subgraph
+    url: https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/swapsicle/analytics/prod/gn
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: |
+      {
+        "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
+      }
+    __dangerous__body_down_if: |
+      ($RESPONSE_DATA?._meta?.hasIndexingErrors === true || 
+       $RESPONSE_DATA?._meta?.block?.timestamp < $NOW - 43200)
 
 assignees: # Users to assign downtime issues (optional)
   - rozzaswap
@@ -30,13 +41,12 @@ status-website:
   logoUrl: https://twelvebit.io/images/android-chrome-192x192.png
   name: Twelvebit Uptime
   introTitle: "**Twelvebit Uptime**, our open-source uptime monitor and status page powered by GitHub Actions, Issues, and Pages."
-  introMessage: 
+  introMessage:
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
   theme: dark
-
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
