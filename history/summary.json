@@ -133,18 +133,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/subgraph-api.mantle.xyz.ico",
     "slug": "swapsicle-analytics-subgraph",
     "status": "up",
-    "uptime": "95.08%",
-    "uptimeDay": "95.08%",
-    "uptimeWeek": "95.08%",
-    "uptimeMonth": "95.08%",
-    "uptimeYear": "95.08%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 603,
     "timeDay": 603,
     "timeWeek": 603,
     "timeMonth": 603,
     "timeYear": 603,
-    "dailyMinutesDown": {
-      "2025-04-08": 2
-    }
+    "dailyMinutesDown": {}
   }
 ]
