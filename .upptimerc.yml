@@ -29,7 +29,7 @@ sites:
     expectedStatusCodes:
       - 200
     __dangerous__body_down: |
-      !data?._meta || data._meta.hasIndexingErrors === true || !data._meta.block?.timestamp || data._meta.block.timestamp < Date.now() / 1000 - 43200
+      !data?._meta || data._meta.hasIndexingErrors === false || !data._meta.block?.timestamp || data._meta.block.timestamp < Date.now() / 1000 - 43200
 
 assignees: # Users to assign downtime issues (optional)
   - rozzaswap
