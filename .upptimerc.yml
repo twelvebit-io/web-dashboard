@@ -28,7 +28,7 @@ sites:
       }
     expectedStatusCodes:
       - 200
-    __dangerous__body_down: '"hasIndexingErrors":true'
+    __dangerous__body_down: '"hasIndexingErrors":false'
 
 assignees: # Users to assign downtime issues (optional)
   - rozzaswap
