@@ -4,19 +4,19 @@
     "url": "https://app.swapsicle.io/swap",
     "icon": "https://icons.duckduckgo.com/ip3/app.swapsicle.io.ico",
     "slug": "swapsicle-application",
-    "status": "up",
-    "uptime": "99.99%",
-    "uptimeDay": "99.09%",
-    "uptimeWeek": "99.87%",
-    "uptimeMonth": "99.97%",
-    "uptimeYear": "99.99%",
+    "status": "down",
+    "uptime": "100.00%",
+    "uptimeDay": "99.84%",
+    "uptimeWeek": "99.98%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "100.00%",
     "time": 240,
     "timeDay": 254,
     "timeWeek": 261,
     "timeMonth": 245,
     "timeYear": 240,
     "dailyMinutesDown": {
-      "2025-08-25": 13
+      "2025-08-25": 2
     }
   },
   {
@@ -24,19 +24,19 @@
     "url": "https://www.swapsicle.io/",
     "icon": "https://icons.duckduckgo.com/ip3/www.swapsicle.io.ico",
     "slug": "swapsicle-landing",
-    "status": "up",
-    "uptime": "99.99%",
-    "uptimeDay": "99.11%",
-    "uptimeWeek": "99.87%",
-    "uptimeMonth": "99.97%",
-    "uptimeYear": "99.99%",
+    "status": "down",
+    "uptime": "100.00%",
+    "uptimeDay": "99.87%",
+    "uptimeWeek": "99.98%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 208,
     "timeDay": 218,
     "timeWeek": 208,
     "timeMonth": 192,
     "timeYear": 208,
     "dailyMinutesDown": {
-      "2025-08-25": 13
+      "2025-08-25": 2
     }
   },
   {
@@ -44,19 +44,19 @@
     "url": "https://v1.swapsicle.io/",
     "icon": "https://icons.duckduckgo.com/ip3/v1.swapsicle.io.ico",
     "slug": "swapsicle-v1",
-    "status": "up",
-    "uptime": "99.99%",
-    "uptimeDay": "99.14%",
-    "uptimeWeek": "99.88%",
-    "uptimeMonth": "99.97%",
-    "uptimeYear": "99.99%",
+    "status": "down",
+    "uptime": "100.00%",
+    "uptimeDay": "99.90%",
+    "uptimeWeek": "99.99%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 556,
     "timeDay": 886,
     "timeWeek": 1131,
     "timeMonth": 784,
     "timeYear": 556,
     "dailyMinutesDown": {
-      "2025-08-25": 12
+      "2025-08-25": 2
     }
   },
   {
@@ -64,19 +64,19 @@
     "url": "https://analytics.swapsicle.io/",
     "icon": "https://icons.duckduckgo.com/ip3/analytics.swapsicle.io.ico",
     "slug": "swapsicle-analytics",
-    "status": "up",
-    "uptime": "99.99%",
-    "uptimeDay": "99.16%",
-    "uptimeWeek": "99.88%",
-    "uptimeMonth": "99.97%",
-    "uptimeYear": "99.99%",
+    "status": "down",
+    "uptime": "100.00%",
+    "uptimeDay": "99.92%",
+    "uptimeWeek": "99.99%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 173,
     "timeDay": 169,
     "timeWeek": 181,
     "timeMonth": 204,
     "timeYear": 173,
     "dailyMinutesDown": {
-      "2025-08-25": 12
+      "2025-08-25": 1
     }
   },
   {
@@ -84,11 +84,11 @@
     "url": "https://twelvebit.io/",
     "icon": "https://icons.duckduckgo.com/ip3/twelvebit.io.ico",
     "slug": "twelvebit",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "99.19%",
-    "uptimeWeek": "99.88%",
-    "uptimeMonth": "99.97%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 207,
     "timeDay": 262,
@@ -96,7 +96,7 @@
     "timeMonth": 205,
     "timeYear": 207,
     "dailyMinutesDown": {
-      "2025-08-25": 12,
+      "2025-08-25": 1,
       "2025-04-03": 14
     }
   },
@@ -125,19 +125,19 @@
     "url": "https://telosx.io/",
     "icon": "https://icons.duckduckgo.com/ip3/telosx.io.ico",
     "slug": "telos-x-landing",
-    "status": "up",
-    "uptime": "99.99%",
-    "uptimeDay": "99.21%",
-    "uptimeWeek": "99.89%",
-    "uptimeMonth": "99.97%",
-    "uptimeYear": "99.99%",
+    "status": "down",
+    "uptime": "100.00%",
+    "uptimeDay": "99.98%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 546,
     "timeDay": 567,
     "timeWeek": 549,
     "timeMonth": 513,
     "timeYear": 546,
     "dailyMinutesDown": {
-      "2025-08-25": 11
+      "2025-08-25": 0
     }
   },
   {
