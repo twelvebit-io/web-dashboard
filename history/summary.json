@@ -4,28 +4,30 @@
     "url": "https://app.swapsicle.io/swap",
     "icon": "https://icons.duckduckgo.com/ip3/app.swapsicle.io.ico",
     "slug": "swapsicle-application",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.84%",
+    "uptimeWeek": "99.98%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
     "time": 240,
     "timeDay": 199,
     "timeWeek": 255,
     "timeMonth": 243,
     "timeYear": 240,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-08-25": 2
+    }
   },
   {
     "name": "Swapsicle Landing",
     "url": "https://www.swapsicle.io/",
     "icon": "https://icons.duckduckgo.com/ip3/www.swapsicle.io.ico",
     "slug": "swapsicle-landing",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.87%",
+    "uptimeWeek": "99.98%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 208,
@@ -33,17 +35,19 @@
     "timeWeek": 208,
     "timeMonth": 191,
     "timeYear": 208,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-08-25": 2
+    }
   },
   {
     "name": "Swapsicle V1",
     "url": "https://v1.swapsicle.io/",
     "icon": "https://icons.duckduckgo.com/ip3/v1.swapsicle.io.ico",
     "slug": "swapsicle-v1",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.90%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 551,
@@ -51,17 +55,19 @@
     "timeWeek": 1199,
     "timeMonth": 777,
     "timeYear": 551,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-08-25": 1
+    }
   },
   {
     "name": "Swapsicle Analytics",
     "url": "https://analytics.swapsicle.io/",
     "icon": "https://icons.duckduckgo.com/ip3/analytics.swapsicle.io.ico",
     "slug": "swapsicle-analytics",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.93%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 173,
@@ -69,17 +75,19 @@
     "timeWeek": 180,
     "timeMonth": 205,
     "timeYear": 173,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-08-25": 1
+    }
   },
   {
     "name": "Twelvebit",
     "url": "https://twelvebit.io/",
     "icon": "https://icons.duckduckgo.com/ip3/twelvebit.io.ico",
     "slug": "twelvebit",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 207,
@@ -88,6 +96,7 @@
     "timeMonth": 204,
     "timeYear": 207,
     "dailyMinutesDown": {
+      "2025-08-25": 1,
       "2025-04-03": 14
     }
   },
@@ -104,7 +113,7 @@
     "uptimeYear": "99.96%",
     "time": 584,
     "timeDay": 403,
-    "timeWeek": 508,
+    "timeWeek": 514,
     "timeMonth": 577,
     "timeYear": 584,
     "dailyMinutesDown": {
@@ -116,9 +125,9 @@
     "url": "https://telosx.io/",
     "icon": "https://icons.duckduckgo.com/ip3/telosx.io.ico",
     "slug": "telos-x-landing",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -127,7 +136,9 @@
     "timeWeek": 577,
     "timeMonth": 517,
     "timeYear": 547,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-08-25": 0
+    }
   },
   {
     "name": "Swapsicle Analytics Subgraph - Mantle",
