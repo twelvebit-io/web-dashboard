@@ -4,11 +4,11 @@
     "url": "https://app.swapsicle.io/swap",
     "icon": "https://icons.duckduckgo.com/ip3/app.swapsicle.io.ico",
     "slug": "swapsicle-application",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "99.65%",
-    "uptimeMonth": "99.92%",
+    "uptimeDay": "99.84%",
+    "uptimeWeek": "99.63%",
+    "uptimeMonth": "99.91%",
     "uptimeYear": "99.98%",
     "time": 239,
     "timeDay": 138,
@@ -16,6 +16,7 @@
     "timeMonth": 242,
     "timeYear": 239,
     "dailyMinutesDown": {
+      "2025-08-28": 2,
       "2025-08-26": 18,
       "2025-08-25": 17
     }
@@ -25,10 +26,10 @@
     "url": "https://www.swapsicle.io/",
     "icon": "https://icons.duckduckgo.com/ip3/www.swapsicle.io.ico",
     "slug": "swapsicle-landing",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "99.66%",
+    "uptimeDay": "99.87%",
+    "uptimeWeek": "99.64%",
     "uptimeMonth": "99.92%",
     "uptimeYear": "99.98%",
     "time": 208,
@@ -37,6 +38,7 @@
     "timeMonth": 198,
     "timeYear": 208,
     "dailyMinutesDown": {
+      "2025-08-28": 2,
       "2025-08-26": 17,
       "2025-08-25": 17
     }
@@ -46,10 +48,10 @@
     "url": "https://v1.swapsicle.io/",
     "icon": "https://icons.duckduckgo.com/ip3/v1.swapsicle.io.ico",
     "slug": "swapsicle-v1",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "99.67%",
+    "uptimeDay": "99.90%",
+    "uptimeWeek": "99.65%",
     "uptimeMonth": "99.92%",
     "uptimeYear": "99.98%",
     "time": 567,
@@ -58,6 +60,7 @@
     "timeMonth": 788,
     "timeYear": 567,
     "dailyMinutesDown": {
+      "2025-08-28": 1,
       "2025-08-26": 17,
       "2025-08-25": 17
     }
@@ -67,10 +70,10 @@
     "url": "https://analytics.swapsicle.io/",
     "icon": "https://icons.duckduckgo.com/ip3/analytics.swapsicle.io.ico",
     "slug": "swapsicle-analytics",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "99.67%",
+    "uptimeDay": "99.93%",
+    "uptimeWeek": "99.66%",
     "uptimeMonth": "99.92%",
     "uptimeYear": "99.98%",
     "time": 174,
@@ -79,6 +82,7 @@
     "timeMonth": 199,
     "timeYear": 174,
     "dailyMinutesDown": {
+      "2025-08-28": 1,
       "2025-08-26": 17,
       "2025-08-25": 16
     }
@@ -88,11 +92,11 @@
     "url": "https://twelvebit.io/",
     "icon": "https://icons.duckduckgo.com/ip3/twelvebit.io.ico",
     "slug": "twelvebit",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "99.68%",
-    "uptimeMonth": "99.93%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.67%",
+    "uptimeMonth": "99.92%",
     "uptimeYear": "99.98%",
     "time": 207,
     "timeDay": 234,
@@ -100,6 +104,7 @@
     "timeMonth": 210,
     "timeYear": 207,
     "dailyMinutesDown": {
+      "2025-08-28": 1,
       "2025-08-26": 16,
       "2025-08-25": 16,
       "2025-04-03": 14
@@ -131,18 +136,19 @@
     "url": "https://telosx.io/",
     "icon": "https://icons.duckduckgo.com/ip3/telosx.io.ico",
     "slug": "telos-x-landing",
-    "status": "up",
-    "uptime": "99.99%",
-    "uptimeDay": "100.00%",
+    "status": "down",
+    "uptime": "99.98%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "99.69%",
     "uptimeMonth": "99.93%",
-    "uptimeYear": "99.99%",
+    "uptimeYear": "99.98%",
     "time": 548,
     "timeDay": 708,
     "timeWeek": 567,
     "timeMonth": 538,
     "timeYear": 548,
     "dailyMinutesDown": {
+      "2025-08-28": 0,
       "2025-08-26": 16,
       "2025-08-25": 16
     }
