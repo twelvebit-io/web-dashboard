@@ -117,9 +117,9 @@
     "slug": "sambuca",
     "status": "up",
     "uptime": "99.91%",
-    "uptimeDay": "99.63%",
-    "uptimeWeek": "99.95%",
-    "uptimeMonth": "99.72%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "99.73%",
     "uptimeYear": "99.91%",
     "time": 587,
     "timeDay": 574,
@@ -127,7 +127,6 @@
     "timeMonth": 579,
     "timeYear": 587,
     "dailyMinutesDown": {
-      "2025-09-14": 5,
       "2025-09-04": 82,
       "2025-08-26": 34,
       "2025-05-01": 89
