@@ -15,8 +15,6 @@ sites:
     url: https://twelvebit.io/
   - name: Sambuca
     url: https://sambucarestaurants.co.uk/
-  - name: TelosX Landing
-    url: https://telosx.io/
   - name: Swapsicle Analytics Subgraph - Mantle
     url: https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/swapsicle/analytics/prod/gn
     method: POST
