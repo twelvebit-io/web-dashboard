@@ -1,7 +1,7 @@
 url: https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/swapsicle/analytics/prod/gn
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2025-10-16T14:21:19.447Z
+status: up
+code: 200
+responseTime: 1814
+lastUpdated: 2025-10-16T14:40:07.857Z
 startTime: 2025-04-08T14:27:12.465Z
 generator: Upptime <https://github.com/upptime/upptime>
