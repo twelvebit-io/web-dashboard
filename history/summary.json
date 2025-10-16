@@ -118,12 +118,12 @@
     "status": "up",
     "uptime": "99.87%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.71%",
+    "uptimeWeek": "99.79%",
     "uptimeMonth": "99.62%",
     "uptimeYear": "99.87%",
     "time": 592,
     "timeDay": 549,
-    "timeWeek": 574,
+    "timeWeek": 587,
     "timeMonth": 606,
     "timeYear": 592,
     "dailyMinutesDown": {
@@ -144,10 +144,10 @@
     "url": "https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/swapsicle/analytics/prod/gn",
     "icon": "https://icons.duckduckgo.com/ip3/subgraph-api.mantle.xyz.ico",
     "slug": "swapsicle-analytics-subgraph-mantle",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 1032,
@@ -155,17 +155,19 @@
     "timeWeek": 1113,
     "timeMonth": 1069,
     "timeYear": 1032,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-10-16": 1
+    }
   },
   {
     "name": "Swapsicle Analytics Subgraph - Mantle Testnet",
     "url": "https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/swapsicle/analytics-testnet/prod/gn",
     "icon": "https://icons.duckduckgo.com/ip3/subgraph-api.mantle.xyz.ico",
     "slug": "swapsicle-analytics-subgraph-mantle-testnet",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 190,
@@ -173,7 +175,9 @@
     "timeWeek": 169,
     "timeMonth": 177,
     "timeYear": 190,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-10-16": 1
+    }
   },
   {
     "name": "Swapsicle Analytics Subgraph - Telos",
@@ -252,10 +256,10 @@
     "url": "https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/cryptoalgebra/farms/-/gn",
     "icon": "https://icons.duckduckgo.com/ip3/subgraph-api.mantle.xyz.ico",
     "slug": "swapsicle-farms-subgraph-mantle",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 193,
@@ -263,17 +267,19 @@
     "timeWeek": 188,
     "timeMonth": 170,
     "timeYear": 193,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-10-16": 1
+    }
   },
   {
     "name": "Swapsicle Farms Subgraph - Mantle Testnet",
     "url": "https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/swapsicle/farms-testnet/prod/gn",
     "icon": "https://icons.duckduckgo.com/ip3/subgraph-api.mantle.xyz.ico",
     "slug": "swapsicle-farms-subgraph-mantle-testnet",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 200,
@@ -281,7 +287,9 @@
     "timeWeek": 166,
     "timeMonth": 186,
     "timeYear": 200,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-10-16": 1
+    }
   },
   {
     "name": "Swapsicle Farms Subgraph - Telos",
@@ -360,10 +368,10 @@
     "url": "https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/swapsicle/blocks/prod/gn",
     "icon": "https://icons.duckduckgo.com/ip3/subgraph-api.mantle.xyz.ico",
     "slug": "swapsicle-blocks-subgraph-mantle",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 209,
@@ -371,17 +379,19 @@
     "timeWeek": 199,
     "timeMonth": 202,
     "timeYear": 209,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-10-16": 1
+    }
   },
   {
     "name": "Swapsicle Blocks Subgraph - Mantle Testnet",
     "url": "https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/swapsicle/blocks-testnet/prod/gn",
     "icon": "https://icons.duckduckgo.com/ip3/subgraph-api.mantle.xyz.ico",
     "slug": "swapsicle-blocks-subgraph-mantle-testnet",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 189,
@@ -389,7 +399,9 @@
     "timeWeek": 257,
     "timeMonth": 206,
     "timeYear": 189,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-10-16": 1
+    }
   },
   {
     "name": "Swapsicle Blocks Subgraph - Telos",
@@ -468,10 +480,10 @@
     "url": "https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/swapsicle/icetoken/prod/gn",
     "icon": "https://icons.duckduckgo.com/ip3/subgraph-api.mantle.xyz.ico",
     "slug": "swapsicle-ice-token-subgraph-mantle",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 214,
@@ -479,17 +491,19 @@
     "timeWeek": 199,
     "timeMonth": 208,
     "timeYear": 214,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-10-16": 1
+    }
   },
   {
     "name": "Swapsicle Ice Token Subgraph - Mantle Testnet",
     "url": "https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/swapsicle/icetoken-testnet/prod/gn",
     "icon": "https://icons.duckduckgo.com/ip3/subgraph-api.mantle.xyz.ico",
     "slug": "swapsicle-ice-token-subgraph-mantle-testnet",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 212,
@@ -497,7 +511,9 @@
     "timeWeek": 182,
     "timeMonth": 218,
     "timeYear": 212,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-10-16": 1
+    }
   },
   {
     "name": "Swapsicle Ice Token Subgraph - Telos",
