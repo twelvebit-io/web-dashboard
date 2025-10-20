@@ -1,7 +1,7 @@
 url: https://app.swapsicle.io/swap
-status: up
-code: 200
-responseTime: 338
-lastUpdated: 2025-10-19T23:12:04.970Z
+status: down
+code: 500
+responseTime: 3237
+lastUpdated: 2025-10-20T07:01:16.092Z
 startTime: 2025-04-03T14:42:42.884Z
 generator: Upptime <https://github.com/upptime/upptime>
