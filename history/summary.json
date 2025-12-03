@@ -13,7 +13,7 @@
     "time": 278,
     "timeDay": 731,
     "timeWeek": 505,
-    "timeMonth": 345,
+    "timeMonth": 349,
     "timeYear": 278,
     "dailyMinutesDown": {
       "2025-11-18": 32,
@@ -37,7 +37,7 @@
     "time": 215,
     "timeDay": 79,
     "timeWeek": 178,
-    "timeMonth": 212,
+    "timeMonth": 213,
     "timeYear": 215,
     "dailyMinutesDown": {
       "2025-11-18": 32,
@@ -61,7 +61,7 @@
     "time": 696,
     "timeDay": 730,
     "timeWeek": 777,
-    "timeMonth": 768,
+    "timeMonth": 783,
     "timeYear": 696,
     "dailyMinutesDown": {
       "2025-11-18": 32,
@@ -110,7 +110,7 @@
     "time": 236,
     "timeDay": 93,
     "timeWeek": 142,
-    "timeMonth": 202,
+    "timeMonth": 203,
     "timeYear": 236,
     "dailyMinutesDown": {
       "2025-11-18": 32,
@@ -129,9 +129,9 @@
     "slug": "sambuca",
     "status": "up",
     "uptime": "99.68%",
-    "uptimeDay": "95.51%",
-    "uptimeWeek": "98.63%",
-    "uptimeMonth": "98.77%",
+    "uptimeDay": "95.91%",
+    "uptimeWeek": "98.68%",
+    "uptimeMonth": "98.78%",
     "uptimeYear": "99.68%",
     "time": 657,
     "timeDay": 770,
@@ -139,7 +139,7 @@
     "timeMonth": 814,
     "timeYear": 657,
     "dailyMinutesDown": {
-      "2025-12-02": 65,
+      "2025-12-02": 59,
       "2025-12-01": 24,
       "2025-11-29": 17,
       "2025-11-28": 33,
