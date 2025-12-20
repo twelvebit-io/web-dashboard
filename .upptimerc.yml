@@ -15,6 +15,9 @@ sites:
     url: https://twelvebit.io/
   - name: Sambuca
     url: https://sambucarestaurants.co.uk/
+    timeout: 30000
+    headers:
+      - "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
   - name: TelosX Landing
     url: https://telosx.io/
   - name: Swapsicle Analytics Subgraph - Mantle
