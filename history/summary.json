@@ -130,9 +130,9 @@
     "url": "https://sambucarestaurants.co.uk/",
     "icon": "https://icons.duckduckgo.com/ip3/sambucarestaurants.co.uk.ico",
     "slug": "sambuca",
-    "status": "up",
+    "status": "down",
     "uptime": "99.29%",
-    "uptimeDay": "97.00%",
+    "uptimeDay": "96.98%",
     "uptimeWeek": "95.21%",
     "uptimeMonth": "96.94%",
     "uptimeYear": "99.29%",
@@ -203,8 +203,7 @@
       "2025-10-08": 1,
       "2025-10-06": 18,
       "2025-10-02": 20,
-      "2025-09-27": 20,
-      "2025-09-22": 19
+      "2025-09-27": 20
     }
   },
   {
