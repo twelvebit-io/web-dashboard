@@ -135,16 +135,16 @@
     "url": "https://sambucarestaurants.co.uk/",
     "icon": "https://icons.duckduckgo.com/ip3/sambucarestaurants.co.uk.ico",
     "slug": "sambuca",
-    "status": "up",
-    "uptime": "99.15%",
-    "uptimeDay": "79.66%",
-    "uptimeWeek": "92.86%",
-    "uptimeMonth": "94.01%",
-    "uptimeYear": "99.15%",
+    "status": "down",
+    "uptime": "99.16%",
+    "uptimeDay": "79.63%",
+    "uptimeWeek": "93.03%",
+    "uptimeMonth": "94.03%",
+    "uptimeYear": "99.16%",
     "time": 666,
     "timeDay": 858,
-    "timeWeek": 688,
-    "timeMonth": 681,
+    "timeWeek": 695,
+    "timeMonth": 680,
     "timeYear": 666,
     "dailyMinutesDown": {
       "2026-02-07": 213,
@@ -196,8 +196,7 @@
       "2025-12-13": 16,
       "2025-12-12": 98,
       "2025-12-11": 63,
-      "2025-12-10": 63,
-      "2025-12-09": 18
+      "2025-12-10": 63
     }
   },
   {
