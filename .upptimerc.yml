@@ -3,309 +3,303 @@ owner: twelvebit-io # Your GitHub organization or username, where this repositor
 repo: upptime # The name of this repository
 
 sites:
-  - name: Swapsicle Application
-    url: https://app.swapsicle.io/swap
-  - name: Swapsicle Landing
-    url: https://www.swapsicle.io/
-  - name: Swapsicle V1
-    url: https://v1.swapsicle.io/
-  - name: Swapsicle Analytics
-    url: https://analytics.swapsicle.io/
   - name: Twelvebit
+    url: https://twelvebit.io/
+  - name: Afyniti
     url: https://twelvebit.io/
   - name: Sambuca
     url: https://sambucarestaurants.co.uk/
     timeout: 30000
     headers:
       - "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-  - name: Swapsicle Analytics Subgraph - Mantle
-    url: https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/swapsicle/analytics/prod/gn
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: |
-      {
-        "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
-      }
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down: '"hasIndexingErrors":true'
-  - name: Swapsicle Analytics Subgraph - Mantle Testnet
-    url: https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/swapsicle/analytics-testnet/prod/gn
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: |
-      {
-        "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
-      }
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down: '"hasIndexingErrors":true'
-  - name: Swapsicle Analytics Subgraph - Telos
-    url: https://api.telos.0xgraph.xyz/api/public/f59149ee-c99a-41d0-afe4-1c86170a98b0/subgraphs/swapsicle/analytics/prod/gn
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: |
-      {
-        "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
-      }
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down: '"hasIndexingErrors":true'
-  - name: Swapsicle Analytics Subgraph - Telos Testnet
-    url: https://api.telos.0xgraph.xyz/api/public/f59149ee-c99a-41d0-afe4-1c86170a98b0/subgraphs/swapsicle/analytics-testnet/prod/gn
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: |
-      {
-        "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
-      }
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down: '"hasIndexingErrors":true'
-  - name: Swapsicle Analytics Subgraph - Taiko
-    url: https://api.goldsky.com/api/public/project_clr6mlufzbtuy01vd012wgt5k/subgraphs/swapsicle-analytics-taiko/prod/gn
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: |
-      {
-        "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
-      }
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down: '"hasIndexingErrors":true'
-  - name: Swapsicle Analytics Subgraph - Taiko Testnet
-    url: https://api.goldsky.com/api/public/project_clr6mlufzbtuy01vd012wgt5k/subgraphs/swapsicle-analytics-taiko-hekla/prod/gn
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: |
-      {
-        "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
-      }
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down: '"hasIndexingErrors":true'
-  - name: Swapsicle Farms Subgraph - Mantle
-    url: https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/cryptoalgebra/farms/-/gn
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: |
-      {
-        "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
-      }
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down: '"hasIndexingErrors":true'
-  - name: Swapsicle Farms Subgraph - Mantle Testnet
-    url: https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/swapsicle/farms-testnet/prod/gn
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: |
-      {
-        "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
-      }
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down: '"hasIndexingErrors":true'
-  - name: Swapsicle Farms Subgraph - Telos
-    url: https://api.telos.0xgraph.xyz/api/public/f59149ee-c99a-41d0-afe4-1c86170a98b0/subgraphs/swapsicle/farms/prod/gn
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: |
-      {
-        "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
-      }
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down: '"hasIndexingErrors":true'
-  - name: Swapsicle Farms Subgraph - Telos Testnet
-    url: https://api.telos.0xgraph.xyz/api/public/f59149ee-c99a-41d0-afe4-1c86170a98b0/subgraphs/swapsicle/farms-testnet/prod/gn
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: |
-      {
-        "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
-      }
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down: '"hasIndexingErrors":true'
-  - name: Swapsicle Farms Subgraph - Taiko
-    url: https://api.goldsky.com/api/public/project_clr6mlufzbtuy01vd012wgt5k/subgraphs/swapsicle-farms-taiko/prod/gn
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: |
-      {
-        "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
-      }
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down: '"hasIndexingErrors":true'
-  - name: Swapsicle Farms Subgraph - Taiko Testnet
-    url: https://api.goldsky.com/api/public/project_clr6mlufzbtuy01vd012wgt5k/subgraphs/swapsicle-farms-taiko-hekla/prod/gn
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: |
-      {
-        "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
-      }
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down: '"hasIndexingErrors":true'
-  - name: Swapsicle Blocks Subgraph - Mantle
-    url: https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/swapsicle/blocks/prod/gn
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: |
-      {
-        "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
-      }
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down: '"hasIndexingErrors":true'
-  - name: Swapsicle Blocks Subgraph - Mantle Testnet
-    url: https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/swapsicle/blocks-testnet/prod/gn
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: |
-      {
-        "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
-      }
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down: '"hasIndexingErrors":true'
-  - name: Swapsicle Blocks Subgraph - Telos
-    url: https://api.telos.0xgraph.xyz/api/public/f59149ee-c99a-41d0-afe4-1c86170a98b0/subgraphs/swapsicle/blocks/prod/gn
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: |
-      {
-        "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
-      }
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down: '"hasIndexingErrors":true'
-  - name: Swapsicle Blocks Subgraph - Telos Testnet
-    url: https://api.telos.0xgraph.xyz/api/public/f59149ee-c99a-41d0-afe4-1c86170a98b0/subgraphs/swapsicle/blocks-testnet/prod/gn
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: |
-      {
-        "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
-      }
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down: '"hasIndexingErrors":true'
-  - name: Swapsicle Blocks Subgraph - Taiko
-    url: https://api.goldsky.com/api/public/project_clr6mlufzbtuy01vd012wgt5k/subgraphs/swapsicle-blocks-taiko/prod/gn
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: |
-      {
-        "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
-      }
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down: '"hasIndexingErrors":true'
-  - name: Swapsicle Blocks Subgraph - Taiko Testnet
-    url: https://api.goldsky.com/api/public/project_clr6mlufzbtuy01vd012wgt5k/subgraphs/swapsicle-blocks-taiko-hekla/prod/gn
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: |
-      {
-        "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
-      }
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down: '"hasIndexingErrors":true'
-  - name: Swapsicle Ice Token Subgraph - Mantle
-    url: https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/swapsicle/icetoken/prod/gn
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: |
-      {
-        "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
-      }
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down: '"hasIndexingErrors":true'
-  - name: Swapsicle Ice Token Subgraph - Mantle Testnet
-    url: https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/swapsicle/icetoken-testnet/prod/gn
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: |
-      {
-        "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
-      }
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down: '"hasIndexingErrors":true'
-  - name: Swapsicle Ice Token Subgraph - Telos
-    url: https://api.telos.0xgraph.xyz/api/public/f59149ee-c99a-41d0-afe4-1c86170a98b0/subgraphs/swapsicle/icetoken/prod/gn
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: |
-      {
-        "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
-      }
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down: '"hasIndexingErrors":true'
-  - name: Swapsicle Ice Token Subgraph - Telos Testnet
-    url: https://api.telos.0xgraph.xyz/api/public/f59149ee-c99a-41d0-afe4-1c86170a98b0/subgraphs/swapsicle/icetoken-testnet/prod/gn
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: |
-      {
-        "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
-      }
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down: '"hasIndexingErrors":true'
-  - name: Swapsicle Ice Token Subgraph - Taiko
-    url: https://api.goldsky.com/api/public/project_clr6mlufzbtuy01vd012wgt5k/subgraphs/swapsicle-icetoken-taiko/prod/gn
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: |
-      {
-        "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
-      }
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down: '"hasIndexingErrors":true'
-  - name: Swapsicle Ice Token Subgraph - Taiko Testnet
-    url: https://api.goldsky.com/api/public/project_clr6mlufzbtuy01vd012wgt5k/subgraphs/swapsicle-icetoken-taiko-hekla/prod/gn
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: |
-      {
-        "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
-      }
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down: '"hasIndexingErrors":true'
+  # - name: Swapsicle Analytics Subgraph - Mantle
+  #   url: https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/swapsicle/analytics/prod/gn
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #   body: |
+  #     {
+  #       "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
+  #     }
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down: '"hasIndexingErrors":true'
+  # - name: Swapsicle Analytics Subgraph - Mantle Testnet
+  #   url: https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/swapsicle/analytics-testnet/prod/gn
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #   body: |
+  #     {
+  #       "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
+  #     }
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down: '"hasIndexingErrors":true'
+  # - name: Swapsicle Analytics Subgraph - Telos
+  #   url: https://api.telos.0xgraph.xyz/api/public/f59149ee-c99a-41d0-afe4-1c86170a98b0/subgraphs/swapsicle/analytics/prod/gn
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #   body: |
+  #     {
+  #       "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
+  #     }
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down: '"hasIndexingErrors":true'
+  # - name: Swapsicle Analytics Subgraph - Telos Testnet
+  #   url: https://api.telos.0xgraph.xyz/api/public/f59149ee-c99a-41d0-afe4-1c86170a98b0/subgraphs/swapsicle/analytics-testnet/prod/gn
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #   body: |
+  #     {
+  #       "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
+  #     }
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down: '"hasIndexingErrors":true'
+  # - name: Swapsicle Analytics Subgraph - Taiko
+  #   url: https://api.goldsky.com/api/public/project_clr6mlufzbtuy01vd012wgt5k/subgraphs/swapsicle-analytics-taiko/prod/gn
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #   body: |
+  #     {
+  #       "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
+  #     }
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down: '"hasIndexingErrors":true'
+  # - name: Swapsicle Analytics Subgraph - Taiko Testnet
+  #   url: https://api.goldsky.com/api/public/project_clr6mlufzbtuy01vd012wgt5k/subgraphs/swapsicle-analytics-taiko-hekla/prod/gn
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #   body: |
+  #     {
+  #       "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
+  #     }
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down: '"hasIndexingErrors":true'
+  # - name: Swapsicle Farms Subgraph - Mantle
+  #   url: https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/cryptoalgebra/farms/-/gn
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #   body: |
+  #     {
+  #       "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
+  #     }
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down: '"hasIndexingErrors":true'
+  # - name: Swapsicle Farms Subgraph - Mantle Testnet
+  #   url: https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/swapsicle/farms-testnet/prod/gn
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #   body: |
+  #     {
+  #       "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
+  #     }
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down: '"hasIndexingErrors":true'
+  # - name: Swapsicle Farms Subgraph - Telos
+  #   url: https://api.telos.0xgraph.xyz/api/public/f59149ee-c99a-41d0-afe4-1c86170a98b0/subgraphs/swapsicle/farms/prod/gn
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #   body: |
+  #     {
+  #       "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
+  #     }
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down: '"hasIndexingErrors":true'
+  # - name: Swapsicle Farms Subgraph - Telos Testnet
+  #   url: https://api.telos.0xgraph.xyz/api/public/f59149ee-c99a-41d0-afe4-1c86170a98b0/subgraphs/swapsicle/farms-testnet/prod/gn
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #   body: |
+  #     {
+  #       "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
+  #     }
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down: '"hasIndexingErrors":true'
+  # - name: Swapsicle Farms Subgraph - Taiko
+  #   url: https://api.goldsky.com/api/public/project_clr6mlufzbtuy01vd012wgt5k/subgraphs/swapsicle-farms-taiko/prod/gn
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #   body: |
+  #     {
+  #       "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
+  #     }
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down: '"hasIndexingErrors":true'
+  # - name: Swapsicle Farms Subgraph - Taiko Testnet
+  #   url: https://api.goldsky.com/api/public/project_clr6mlufzbtuy01vd012wgt5k/subgraphs/swapsicle-farms-taiko-hekla/prod/gn
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #   body: |
+  #     {
+  #       "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
+  #     }
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down: '"hasIndexingErrors":true'
+  # - name: Swapsicle Blocks Subgraph - Mantle
+  #   url: https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/swapsicle/blocks/prod/gn
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #   body: |
+  #     {
+  #       "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
+  #     }
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down: '"hasIndexingErrors":true'
+  # - name: Swapsicle Blocks Subgraph - Mantle Testnet
+  #   url: https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/swapsicle/blocks-testnet/prod/gn
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #   body: |
+  #     {
+  #       "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
+  #     }
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down: '"hasIndexingErrors":true'
+  # - name: Swapsicle Blocks Subgraph - Telos
+  #   url: https://api.telos.0xgraph.xyz/api/public/f59149ee-c99a-41d0-afe4-1c86170a98b0/subgraphs/swapsicle/blocks/prod/gn
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #   body: |
+  #     {
+  #       "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
+  #     }
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down: '"hasIndexingErrors":true'
+  # - name: Swapsicle Blocks Subgraph - Telos Testnet
+  #   url: https://api.telos.0xgraph.xyz/api/public/f59149ee-c99a-41d0-afe4-1c86170a98b0/subgraphs/swapsicle/blocks-testnet/prod/gn
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #   body: |
+  #     {
+  #       "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
+  #     }
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down: '"hasIndexingErrors":true'
+  # - name: Swapsicle Blocks Subgraph - Taiko
+  #   url: https://api.goldsky.com/api/public/project_clr6mlufzbtuy01vd012wgt5k/subgraphs/swapsicle-blocks-taiko/prod/gn
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #   body: |
+  #     {
+  #       "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
+  #     }
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down: '"hasIndexingErrors":true'
+  # - name: Swapsicle Blocks Subgraph - Taiko Testnet
+  #   url: https://api.goldsky.com/api/public/project_clr6mlufzbtuy01vd012wgt5k/subgraphs/swapsicle-blocks-taiko-hekla/prod/gn
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #   body: |
+  #     {
+  #       "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
+  #     }
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down: '"hasIndexingErrors":true'
+  # - name: Swapsicle Ice Token Subgraph - Mantle
+  #   url: https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/swapsicle/icetoken/prod/gn
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #   body: |
+  #     {
+  #       "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
+  #     }
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down: '"hasIndexingErrors":true'
+  # - name: Swapsicle Ice Token Subgraph - Mantle Testnet
+  #   url: https://subgraph-api.mantle.xyz/api/public/f077c8d4-0d6c-42d4-9bbd-050948dc5c86/subgraphs/swapsicle/icetoken-testnet/prod/gn
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #   body: |
+  #     {
+  #       "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
+  #     }
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down: '"hasIndexingErrors":true'
+  # - name: Swapsicle Ice Token Subgraph - Telos
+  #   url: https://api.telos.0xgraph.xyz/api/public/f59149ee-c99a-41d0-afe4-1c86170a98b0/subgraphs/swapsicle/icetoken/prod/gn
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #   body: |
+  #     {
+  #       "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
+  #     }
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down: '"hasIndexingErrors":true'
+  # - name: Swapsicle Ice Token Subgraph - Telos Testnet
+  #   url: https://api.telos.0xgraph.xyz/api/public/f59149ee-c99a-41d0-afe4-1c86170a98b0/subgraphs/swapsicle/icetoken-testnet/prod/gn
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #   body: |
+  #     {
+  #       "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
+  #     }
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down: '"hasIndexingErrors":true'
+  # - name: Swapsicle Ice Token Subgraph - Taiko
+  #   url: https://api.goldsky.com/api/public/project_clr6mlufzbtuy01vd012wgt5k/subgraphs/swapsicle-icetoken-taiko/prod/gn
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #   body: |
+  #     {
+  #       "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
+  #     }
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down: '"hasIndexingErrors":true'
+  # - name: Swapsicle Ice Token Subgraph - Taiko Testnet
+  #   url: https://api.goldsky.com/api/public/project_clr6mlufzbtuy01vd012wgt5k/subgraphs/swapsicle-icetoken-taiko-hekla/prod/gn
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #   body: |
+  #     {
+  #       "query": "query HealthCheck { _meta { deployment hasIndexingErrors block { timestamp } } }"
+  #     }
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down: '"hasIndexingErrors":true'
 
 assignees: # Users to assign downtime issues (optional)
   - rozzaswap
