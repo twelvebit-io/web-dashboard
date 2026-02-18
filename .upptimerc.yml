@@ -5,8 +5,10 @@ repo: upptime # The name of this repository
 sites:
   - name: Twelvebit
     url: https://twelvebit.io/
+  - name: Afyniti Landing
+    url: https://afyniti.xyz/
   - name: Afyniti
-    url: https://twelvebit.io/
+    url: https://app.afyniti.xyz/
   - name: Sambuca
     url: https://sambucarestaurants.co.uk/
     timeout: 30000
