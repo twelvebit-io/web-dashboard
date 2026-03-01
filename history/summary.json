@@ -6,7 +6,7 @@
     "slug": "twelvebit",
     "status": "up",
     "uptime": "99.94%",
-    "uptimeDay": "98.39%",
+    "uptimeDay": "99.19%",
     "uptimeWeek": "99.41%",
     "uptimeMonth": "99.86%",
     "uptimeYear": "99.94%",
@@ -36,7 +36,7 @@
     "slug": "afyniti-landing",
     "status": "up",
     "uptime": "99.63%",
-    "uptimeDay": "98.39%",
+    "uptimeDay": "99.19%",
     "uptimeWeek": "99.41%",
     "uptimeMonth": "99.63%",
     "uptimeYear": "99.63%",
@@ -57,7 +57,7 @@
     "slug": "afyniti",
     "status": "up",
     "uptime": "99.63%",
-    "uptimeDay": "98.39%",
+    "uptimeDay": "99.18%",
     "uptimeWeek": "99.41%",
     "uptimeMonth": "99.63%",
     "uptimeYear": "99.63%",
@@ -76,14 +76,14 @@
     "url": "https://sambucarestaurants.co.uk/",
     "icon": "https://icons.duckduckgo.com/ip3/sambucarestaurants.co.uk.ico",
     "slug": "sambuca",
-    "status": "up",
+    "status": "down",
     "uptime": "98.95%",
     "uptimeDay": "97.94%",
-    "uptimeWeek": "93.34%",
+    "uptimeWeek": "93.33%",
     "uptimeMonth": "91.48%",
     "uptimeYear": "98.95%",
     "time": 667,
-    "timeDay": 822,
+    "timeDay": 871,
     "timeWeek": 689,
     "timeMonth": 680,
     "timeYear": 667,
@@ -119,7 +119,7 @@
       "2026-01-28": 503,
       "2026-01-27": 89,
       "2026-01-26": 151,
-      "2026-01-25": 69
+      "2026-01-25": 51
     }
   }
 ]
