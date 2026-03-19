@@ -35,11 +35,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/afyniti.xyz.ico",
     "slug": "afyniti-landing",
     "status": "up",
-    "uptime": "99.85%",
+    "uptime": "99.86%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.85%",
-    "uptimeYear": "99.85%",
+    "uptimeMonth": "99.86%",
+    "uptimeYear": "99.86%",
     "time": 125,
     "timeDay": 268,
     "timeWeek": 140,
@@ -76,18 +76,19 @@
     "url": "https://sambucarestaurants.co.uk/",
     "icon": "https://icons.duckduckgo.com/ip3/sambucarestaurants.co.uk.ico",
     "slug": "sambuca",
-    "status": "up",
+    "status": "down",
     "uptime": "99.07%",
-    "uptimeDay": "72.00%",
+    "uptimeDay": "85.99%",
     "uptimeWeek": "85.36%",
-    "uptimeMonth": "89.58%",
+    "uptimeMonth": "89.64%",
     "uptimeYear": "99.07%",
     "time": 667,
-    "timeDay": 599,
+    "timeDay": 556,
     "timeWeek": 617,
     "timeMonth": 664,
     "timeYear": 667,
     "dailyMinutesDown": {
+      "2026-03-19": 0,
       "2026-03-18": 486,
       "2026-03-17": 67,
       "2026-03-16": 173,
@@ -115,7 +116,7 @@
       "2026-02-21": 216,
       "2026-02-20": 105,
       "2026-02-19": 100,
-      "2026-02-15": 138
+      "2026-02-15": 110
     }
   }
 ]
