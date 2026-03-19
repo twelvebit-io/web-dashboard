@@ -56,11 +56,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/app.afyniti.xyz.ico",
     "slug": "afyniti",
     "status": "up",
-    "uptime": "99.85%",
+    "uptime": "99.86%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.85%",
-    "uptimeYear": "99.85%",
+    "uptimeMonth": "99.86%",
+    "uptimeYear": "99.86%",
     "time": 157,
     "timeDay": 230,
     "timeWeek": 176,
@@ -78,9 +78,9 @@
     "slug": "sambuca",
     "status": "up",
     "uptime": "99.07%",
-    "uptimeDay": "65.77%",
-    "uptimeWeek": "85.30%",
-    "uptimeMonth": "89.56%",
+    "uptimeDay": "72.00%",
+    "uptimeWeek": "85.36%",
+    "uptimeMonth": "89.58%",
     "uptimeYear": "99.07%",
     "time": 667,
     "timeDay": 599,
@@ -88,7 +88,7 @@
     "timeMonth": 664,
     "timeYear": 667,
     "dailyMinutesDown": {
-      "2026-03-18": 492,
+      "2026-03-18": 486,
       "2026-03-17": 67,
       "2026-03-16": 173,
       "2026-03-15": 81,
@@ -115,7 +115,7 @@
       "2026-02-21": 216,
       "2026-02-20": 105,
       "2026-02-19": 100,
-      "2026-02-15": 110
+      "2026-02-15": 138
     }
   }
 ]
